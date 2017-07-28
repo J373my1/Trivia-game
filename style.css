@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+ 
+
+h1 {
+    color: gold;
+    background-color: #B81104;
+    font-size: 50px;
+    text-align: center;
+    font-family: Tangerine;
+    text-shadow: 2px 2px black;
+    margin: 40px;
+}
+
+body {
+    background-image: url("assets/images/music.jpg");
+    background-repeat: no-repeat;
+    font-family: great vibes;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    font-family:'Tangerine', serif;
+    font-size: 35px;
+    text-shadow: 2px 2px black;
+}
+input[type=radio] {
+    border: 0px;
+    width: 30px;
+    height: 30px;
+}
+p {
+    font-family:'Tangerine', serif;
+}
+
+ .quizContainer {
+    border-radius: 6px;
+    width: 75%;
+    margin: auto;
+    padding-top: 5px;
+    background-color: #761232;
+    box-shadow: 7px 7px 5px #B81104;
+    opacity: .9;
+}
+.nextButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    background-color: gold;
+    font-size: 28px;
+    color: red;
+    font-family:'great vibes', serif;
+    position: relative;
+    margin: auto;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.question {
+    font-family:'great vibes', serif;
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: gold;
+    text-align: center;
+}
+.quizMessage {
+    background-color: yellow;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-family:'great vibes', serif;
+    color: red;
+    font-size: 20px;
+}
+.choiceList {
+    font-family: Courier, serif;
+    color: blueviolet;
+}
+.result {
+    width: 30%;
+    height: auto;%;
+    border-radius: 6px;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+    font-family:'great vibes', serif;
+    font-size: 30px;
+}
